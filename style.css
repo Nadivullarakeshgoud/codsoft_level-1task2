@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding :0;
+}
+
+body{
+background-color:black;
+color: white;
+font-family: 'Poppins', sans-serif;
+}
+
+nav{
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 75px;
+background-color:mediumseagreen;
+}
+nav ul{
+display: flex;
+justify-content: center;
+}
+nav ul li{
+list-style: none;
+margin: 0 23px;
+}
+nav ul li a{
+text-decoration: none;
+color:rgb(229, 233, 237);
+
+}
+nav ul li a:hover{
+color: orange;
+list-style: none;
+margin: 0 23px;
+font-size:1.05rem;
+}
+nav ul li a{
+text-decoration: none;
+color:lavenderblush;
+margin: 0 23px;
+}
+main hr{
+border: 0;
+background: #ac7be0;
+height:1.0px;
+margin:5px 200px;
+
+}
+.left{
+font-size: 1.75rem ;
+}
+.firstSection{
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin: 140px 0;
+}
+.firstSection > div{
+width: 30%;
+}
+
+.leftSection{
+font-size: 2.5rem ;
+}
+.rightSection img{
+width: 80%;
+}
+.purple{
+color: blueviolet;
+}
+#element{
+color: blueviolet;
+}
+.secondSection hr{
+border: 0;
+background: #ac7be0;
+height:1.2px;
+margin:60px 84px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.secondSection{
+max-width:80vw;
+margin:auto;
+height:80vh;
+font-family: 'Poppins', sans-serif;
+}
+.secondSection h1{
+color:#ac7be0;
+font-size: 2.5rem;
+}
+.secondSection h2{
+color: lavender;
+font-size: 1.45rem;
+margin:25px 0px;
+}
+.thirdSection{
+max-width:80vw;
+margin:auto;
+height:80vh;
+font-family: 'Poppins', sans-serif;
+}
+.thirdSection h3{
+color:#ac7be0;
+font-size: 2.5rem;
+}
+.thirdSection h4{
+color: lavender;
+font-size: 1.45rem;
+margin:25px 0px;
+}
+.thirdSection h5{
+color: lavender;
+font-size: 1.45rem;
+margin:25px 0px;
+}
+.fourthSection{
+max-width:80vw;
+margin:auto;
+height:80vh;
+font-family: 'Poppins', sans-serif;
+}
+.fourthSection h3{
+color:#ac7be0;
+font-size: 3.0rem;
+}
+.fourthSection h4{
+color: lavender;
+font-size: 1.45rem;
+margin:25px 0px;
+}
+.fourthSection h5{
+color: lavender;
+font-size: 1.45rem;
+margin:25px 0px;
+}
+.fourthSection h6{
+color: lavender;
+font-size: 1.45rem;
+margin:25px 0px;
+}
+.fourthSection{
+max-width:80vw;
+margin:auto;
+height:80vh;
+font-family: 'Poppins', sans-serif;
+}
+.fifthSection h4{
+color:#ac7be0;
+font-size: 2.5rem;
+}
+.fifthSection h5{
+color: lavender;
+font-size: 1.45rem;
+margin:25px 0px;
+}
+.sixthSection h2{
+color:#ac7be0;
+font-size: 2.5rem;
+}
+.sixthSection h3{
+color:#ac7be0;
+font-size: 2.5rem;
+}
+.sixthSection h4{
+color: lavender;
+font-size: 1.45rem;
+margin:25px 0px;
+}
+
+#contact {
+background-color: rgb(24, 3, 37);
+padding: 50px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact h2 p {
+margin-bottom: 20px;
+text-align: center;
+font-size: 2em;
+color: #411362;
+}
+
+.contact-info {
+display: flex;
+justify-content: center;
+margin-bottom: 30px;
+}
+
+.contact-info p {
+margin: 0 20px;
+text-align: center;
+}
+
+.contact-info h3 {
+margin-bottom: 5px;
+font-size: 1.2em;
+color: #411362;
+}
+
+.contact-info h4 {
+font-size: 1em;
+color: #666;
+}
+
+.contact-info a {
+color: #411362;
+text-decoration: none;
+}
+
+.contact-form {
+max-width: 500px;
+margin: 0 auto;
+}
+
+.contact-form form {
+display: flex;
+flex-direction: column;
+}
+
+.contact-form label {
+margin-bottom: 10px;
+font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+padding: 10px;
+border-radius: 5px;
+border: 1px solid #ccc;
+margin-bottom: 20px;
+font-size: 1em;
+}
+
+.contact-form input[type="submit"] {
+background-color: #411362;
+color: white;
+border: none;
+padding: 15px;
+cursor: pointer;
+font-size: 1em;
+}
+
+.contact-form input[type="submit"]:hover {
+background-color: #311050;
+}
+.cont{
+color: white;
+}
+.cont2{
+text-align: center;
+}
+.skill {
+    margin-bottom: 10px;
+}
+
+.skill-label {
+    font-weight: bold;
+}
+
+.progress {
+    width: 100%;
+    height: 20px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+
+.progress-bar {
+    width: 0;
+    height: 100%;
+    background-color: #4caf50; /* Change this to the desired color */
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    border-radius: 5px; 
+}
